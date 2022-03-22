@@ -1,3 +1,4 @@
 #!/bin/bash
-sudo apachectl stop
+systemctl restart httpd
+systemctl stop httpd
 
